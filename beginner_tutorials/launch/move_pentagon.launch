@@ -1,0 +1,4 @@
+<launch><node name="turtlesim" pkg="turtlesim" type="turtlesim_node"/>
+	<node name="Client" pkg="beginner_tutorials" type="move_pentagon_client.py" output="screen"/>
+	<node name="Server" pkg="beginner_tutorials" type="move_pentagon_server.py" output="screen"/>
+</launch>
